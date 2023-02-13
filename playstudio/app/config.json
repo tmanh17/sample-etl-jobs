@@ -1,0 +1,29 @@
+{
+    "env_overrides":{
+        "mysql_settings": {
+            "host": "localhost",
+            "port": 3306,
+            "database": "playstudio",
+            "user": "root",
+            "password": ""
+        }
+    },
+    "default":{
+        "batch_size":10000
+    },
+    "schemas": {
+        "playstudio.events":{
+            "batch_size":20000,
+            "path": "EventData",
+            "file_prefix": "Events",
+            "file_extension": "jsn",
+            "columns":["datafile_date", "id","event_time","play_bet","play_win","altid_supid","altid_socid","device_id","device_id_type_os","device_id_type_model","device_platform"]
+        },
+        "playstudio.players":{
+            "path": "PlayerData",
+            "file_prefix": "Players",
+            "file_extension": "jsn",
+            "columns":["datafile_date", "id","login_date","install_date","revenue"]
+        }
+    }
+}
