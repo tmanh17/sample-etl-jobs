@@ -211,13 +211,4 @@ It seems that group B is the current approach as I can all metrics are quite bal
 
 => More detailed information about the analysis is in the Jupyter notebook file abtest_analysis.ipynb
 
-### Question 4 – Projects (Bonus)
-
-we are aiming to design our system toward a microservice architecture that brings a lot of benefits by applying DevOps best practices for driving higher software delivery performance and establishing a healthy organization (refer https://services.google.com/fh/files/misc/dora_research_program.pdf https://cloud.google.com/architecture/devops). In addition, I worked in a scrum team. I understand how it works and the roles of different positions in the team. How they contribute to the velocity of the team and the values they bring to the team and for the company
- 
- 
-In addition, I worked with Airflow for quite a while. Which is sufficient to design DAG suitably in the Citigo company that I mentioned in the resume. The second one is in Coccoc, we try to understand whether Airflow is suitable for visualizing our data pipeline?. Eventually, After reading some articles combine with my experience of mine and my teammates' about airflow. We ended up deciding not to use it because of its drawbacks. The main drawbacks is that Airflow is monolithic. As mentioned earlier, Monolithic is the opposite of our Microservice architecture which is not really good for our architecture and our way of managing tasks.
-
-
-Steps to run file, please ignote password in the log file. For simplify reproducing process. I've just setup an Mysql account using root user without password in the app/config.json file
 # simple_etl_jobs
